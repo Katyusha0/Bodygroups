@@ -1,0 +1,96 @@
+@name Chat Bodygroups
+
+entity():setAlpha(0)
+runOnChat(1)
+
+#-------------------------------------------#
+if(owner():lastSaid() == "!civ1")
+{
+hideChat(1)
+owner():setBodygroup(1,4) #Shirt 0-14
+owner():setBodygroup(2,3) #Pants 0-6
+owner():setBodygroup(3,1) #Gloves 0-2
+owner():setBodygroup(4,0) #Hat 0-2
+owner():setBodygroup(5,1) #Glasses 0-1
+#-------------------------------------------#
+}
+if(owner():lastSaid() == "!civ2")
+{
+hideChat(1)
+owner():setBodygroup(1,1) #Shirt 0-14
+owner():setBodygroup(2,1) #Pants 0-6
+owner():setBodygroup(3,1) #Gloves 0-2
+owner():setBodygroup(4,0) #Hat 0-2
+owner():setBodygroup(5,1) #Glasses 0-1
+#-------------------------------------------#
+}
+if(owner():lastSaid() == "!reb1")
+{
+hideChat(1)
+owner():setBodygroup(1,6) #Shirt 0-14
+owner():setBodygroup(2,3) #Pants 0-6
+owner():setBodygroup(3,1) #Gloves 0-2
+owner():setBodygroup(4,0) #Hat 0-2
+owner():setBodygroup(5,1) #Glasses 0-1
+}
+#-------------------------------------------#
+if(owner():lastSaid() == "!reb2")
+{
+hideChat(1)
+owner():setBodygroup(1,5) #Shirt 0-14
+owner():setBodygroup(2,1) #Pants 0-6
+owner():setBodygroup(3,1) #Gloves 0-2
+owner():setBodygroup(4,0) #Hat 0-2
+owner():setBodygroup(5,1) #Glasses 0-1
+}
+#-------------------------------------------#
+if(owner():lastSaid() == "!reset")
+{
+hideChat(1)
+owner():setBodygroup(1,0) #Shirt 0-14
+owner():setBodygroup(2,0) #Pants 0-6
+owner():setBodygroup(3,0) #Gloves 0-2
+owner():setBodygroup(4,0) #Hat 0-2
+owner():setBodygroup(5,0) #Glasses 0-1
+}
+#-------------------------------------------#
+if(owner():lastSaid() == "!cwu")
+{
+hideChat(1)
+owner():setBodygroup(1,13) #Shirt 0-14
+owner():setBodygroup(2,1) #Pants 0-6
+owner():setBodygroup(3,0) #Gloves 0-2
+owner():setBodygroup(4,0) #Hat 0-2
+owner():setBodygroup(5,1) #Glasses 0-1
+}
+#-------------------------------------------#
+if(owner():lastSaid() == "!med1")
+{
+hideChat(1)
+owner():setBodygroup(1,9) #Shirt 0-14
+owner():setBodygroup(2,3) #Pants 0-6
+owner():setBodygroup(3,1) #Gloves 0-2
+owner():setBodygroup(4,0) #Hat 0-2
+owner():setBodygroup(5,1) #Glasses 0-1
+#-------------------------------------------#
+}
+if(owner():lastSaid() == "!med2")
+{
+hideChat(1)
+owner():setBodygroup(1,7) #Shirt 0-14
+owner():setBodygroup(2,3) #Pants 0-6
+owner():setBodygroup(3,1) #Gloves 0-2
+owner():setBodygroup(4,0) #Hat 0-2
+owner():setBodygroup(5,1) #Glasses 0-1
+}
+#-------------------------------------------#
+if(owner():lastSaid() == "!mrg")
+{
+hideChat(1)
+owner():setBodygroup(1,11) #Shirt 0-14
+owner():setBodygroup(2,1) #Pants 0-6
+owner():setBodygroup(3,2) #Gloves 0-2
+owner():setBodygroup(4,0) #Hat 0-2
+owner():setBodygroup(5,1) #Glasses 0-1
+}
+#-------------------------------------------#
